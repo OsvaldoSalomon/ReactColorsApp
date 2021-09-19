@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import ColorBox from "./ColorBox";
-import Navbar from "./Navbar";
+import ColorBox from "../ColorBox/ColorBox";
+import Navbar from "../Navbar/Navbar";
 import PaletteFooter from "./PaletteFooter";
 import './Palette.css';
 
