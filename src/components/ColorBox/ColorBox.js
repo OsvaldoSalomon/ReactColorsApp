@@ -3,7 +3,6 @@ import {Link} from "react-router-dom";
 import {CopyToClipboard} from "react-copy-to-clipboard/lib/Component";
 import {withStyles} from "@material-ui/styles";
 import styles from './ColorBoxStyles';
-import './ColorBox.css';
 
 
 class ColorBox extends Component {
