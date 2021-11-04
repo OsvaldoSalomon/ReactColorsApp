@@ -10,6 +10,7 @@ const styles = {
         margin: "0 auto -3.5px",
         display: "inline-block",
         position: "relative",
+        verticalAlign: "top",
         cursor: "pointer",
         "&:hover svg": {
             color: "white",
