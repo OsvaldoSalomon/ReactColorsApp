@@ -50,7 +50,6 @@ export default {
         float: "left",
         margin: "0",
         position: "relative",
-        // marginBottom: "-4px"
     },
     delete: {},
     deleteIcon: {
