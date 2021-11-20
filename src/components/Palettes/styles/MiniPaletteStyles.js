@@ -4,14 +4,12 @@ export default {
         border: "1px solid black",
         borderRadius: "5px",
         padding: "0.5rem",
-        paddingBottom: "1.7rem",
         position: "relative",
         overflow: "hidden",
         cursor: "pointer",
         "&:hover svg": {
             opacity: 1
         },
-
     },
     colors: {
         backgroundColor: "#dae1e4",
