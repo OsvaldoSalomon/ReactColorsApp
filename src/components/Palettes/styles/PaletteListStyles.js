@@ -1,6 +1,6 @@
 import sizes from "./sizes";
-import bg from "./bg.svg"
 import bg2 from "./bg2.svg"
+import bg from "./bg.svg"
 
 export default {
     root: {
@@ -9,8 +9,12 @@ export default {
         alignItems: "flex-start",
         justifyContent: "center",
         /* background by SVGBackgrounds.com */
-        backgroundColor: "2047AA",
-        backgroundImage: `url(${bg2})`,
+        backgroundColor: "023047",
+        backgroundRepeat: "no-repeat",
+        backgroundAttachment: "fixed",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundImage: `url(${bg})`,
         overflow: "scroll"
     },
     heading: {

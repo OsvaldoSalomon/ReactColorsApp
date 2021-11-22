@@ -1,8 +1,8 @@
 export default {
     root: {
         backgroundColor: "white",
-        border: "1px solid black",
-        borderRadius: "5px",
+        border: "1px solid white",
+        borderRadius: "13px",
         padding: "0.5rem",
         position: "relative",
         overflow: "hidden",
@@ -15,7 +15,7 @@ export default {
         backgroundColor: "#dae1e4",
         height: "150px",
         width: "100%",
-        borderRadius: "5px",
+        borderRadius: "9px",
         overflow: "hidden"
     },
     title: {
