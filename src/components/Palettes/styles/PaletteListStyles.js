@@ -3,13 +3,22 @@ import bg2 from "./bg2.svg"
 import bg from "./bg.svg"
 
 export default {
+    "@global": {
+        ".fade-exit": {
+            opacity: 1
+        },
+        ".fade-exit-active": {
+            opacity: 0,
+            transition: "opacity 500ms ease-out"
+        }
+    },
     root: {
         height: "100vh",
         display: "flex",
         alignItems: "flex-start",
         justifyContent: "center",
         /* background by SVGBackgrounds.com */
-        backgroundColor: "023047",
+        backgroundColor: "#023047",
         backgroundRepeat: "no-repeat",
         backgroundAttachment: "fixed",
         backgroundSize: "cover",
